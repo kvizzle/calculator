@@ -1,0 +1,75 @@
+
+body {
+  background: -webkit-linear-gradient(left top, rgba(153,204,255,0.6),rgba(153, 204, 255, 0.1) )no-repeat;
+}
+ 
+  #title {
+    padding-top: 5%;
+    font-family: 'Rajdhani', sans-serif;
+    color: white;
+    font-size: 1.2em;
+  }
+
+  #table {
+    border: solid rgb(153,204,255) 5px;
+    border-radius: 25px;
+    margin: 0 auto;  
+    width: 30vw;
+    height: 40vw;
+    background-color: rgb(153,204,255);
+    box-shadow: 7px 7px 5px #888888;
+    margin-top: 5%;
+    padding: 1%;
+     
+  }
+  
+.button {
+  border: solid grey 1px;
+  border-radius: 5px;
+  background-color: rgba(255,255,255,0.8);
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  width: 100%;
+  color: black;
+  box-shadow: 2px 2px 1px #888888;    
+}
+
+.operand {
+  background-color: rgba(255,255,255,0.5);
+}
+
+.equals {
+   background-color: rgba(65,151,238,1);
+   color: white;
+}
+
+.delete {
+  background-color: rgba(245,73,91,1);
+  color: white;
+}
+
+.clearLast {
+    background-color: rgba(240,112,125,1);
+    color: white;
+}
+
+.mainScreen {
+  border: solid grey 1px;
+  border-radius: 5px;
+  background: -webkit-linear-gradient(top left, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
+  background: -moz-linear-gradient(top left, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
+  background: -o-linear-gradient(top left, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
+  background: linear-gradient(to bottom right, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
+  width: 100%;
+  font-size: 1.3em;
+  margin-bottom: 25px;
+  outline: none;
+  color: white;
+}
+
+#view {
+  text-align: left;
+  padding: 4%;
+  width: 100%;
+}
