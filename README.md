@@ -1,2 +1,1 @@
-# calculator
-Free code camp javascript calculator
+My javascript calculator
