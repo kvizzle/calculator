@@ -18,9 +18,7 @@ body {
     height: 40vw;
     background-color: rgb(153,204,255);
     box-shadow: 7px 7px 5px #888888;
-    margin-top: 5%;
-    padding: 1%;
-     
+    padding: 1%;  
   }
   
 .button {
