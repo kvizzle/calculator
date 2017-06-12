@@ -64,13 +64,14 @@ $(document).ready(function() {
   function viewOnlyTwelve(val) {
     if (val.length > 30) {
       $("#view").css("font-size", "0.6em");
-    } else if (val.length > 23) {
-      $("#view").css("font-size", "0.8em");
+    } else if (val.length > 17) {
+      $("#view").css("font-size", "0.9em");
     } else {
-      $("#view").css("font-size", "1em");
+      $("#view").css("font-size", "1.5em");
     }
     return val;
   }
+  
 
   function calculate() {
     mainScreen = percentSymbolConvert(mainScreen);
