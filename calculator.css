@@ -15,10 +15,13 @@ body {
     border-radius: 25px;
     margin: 0 auto;  
     width: 30vw;
-    height: 60vw;
+    height: 40vw;
     background-color: rgb(153,204,255);
     box-shadow: 7px 7px 5px #888888;
-    padding: 1%;  
+    margin-top: 5%;
+    padding: 1%;
+    margin-top: 8%;
+     
   }
   
 .button {
@@ -60,14 +63,14 @@ body {
   background: -o-linear-gradient(top left, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
   background: linear-gradient(to bottom right, rgba(80, 118, 71,0.7), rgb(112, 148, 103))no-repeat;
   width: 100%;
-  font-size: 1.3em;
+  font-size: 1.5em;
   margin-bottom: 25px;
   outline: none;
   color: white;
 }
 
 #view {
-  text-align: left;
+  text-align: right;
   padding: 4%;
   width: 100%;
 }
